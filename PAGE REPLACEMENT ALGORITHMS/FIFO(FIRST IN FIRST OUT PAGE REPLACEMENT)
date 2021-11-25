@@ -1,0 +1,44 @@
+DESCRIPTION TO FIFO(FIRST IN FIRST OUT ) PAGE REPLACEMENT ALGORITHM
+================================================================================================================================================================================
+
+First In First Out (FIFO)
+This is the simplest page replacement algorithm. In this algorithm, the OS maintains a queue that keeps track of all the pages in memory,
+with the oldest page at the front and the most recent page at the back.
+
+When there is a need for page replacement, the FIFO algorithm, swaps out the page at the front of the queue, that is the page which has been in the memory for the longest time.
+
+For Example:
+Consider the page reference string of size 12: 1, 2, 3, 4, 5, 1, 3, 1, 6, 3, 2, 3 with frame size 4(i.e. maximum 4 pages in a frame).
+
+
+Total Page Fault = 9
+
+Initially, all 4 slots are empty, so when 1, 2, 3, 4 came they are allocated to the empty slots in order of their arrival. This is page fault as 1, 2, 3, 4
+are not available in memory.
+
+When 5 comes, it is not available in memory so page fault occurs and it replaces the oldest page in memory, i.e., 1.
+
+When 1 comes, it is not available in memory so page fault occurs and it replaces the oldest page in memory, i.e., 2.
+
+When 3,1 comes, it is available in the memory, i.e., Page Hit, so no replacement occurs.
+
+When 6 comes, it is not available in memory so page fault occurs and it replaces the oldest page in memory, i.e., 3.
+
+When 3 comes, it is not available in memory so page fault occurs and it replaces the oldest page in memory, i.e., 4.
+
+When 2 comes, it is not available in memory so page fault occurs and it replaces the oldest page in memory, i.e., 5.
+
+When 3 comes, it is available in the memory, i.e., Page Hit, so no replacement occurs.
+
+Page Fault ratio = 9/12 i.e. total miss/total possible cases
+
+Advantages
+======================================================
+Simple and easy to implement.
+Low overhead.
+
+Disadvantages
+-=========================================================
+Poor performance.
+Doesn’t consider the frequency of use or last used time, simply replaces the oldest page.
+Suffers from Belady’s Anomaly(i.e. more page faults when we increase the number of page frames).
