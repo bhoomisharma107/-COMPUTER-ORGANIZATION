@@ -1,0 +1,25 @@
+Optimal page replacement algorithm is a page replacement algorithm. A page replacement algorithm is an algorithm which decides which memory page is to be replaced. In Optimal page replacement we replace the page which is not referred to the near future, although it can’t be practically implemented, but this is most optimal and have minimal miss, and is most optimal.
+
+Let’s understand by using an example and explaining it diagrammatically.
+
+
+
+Here after allocating 1, 2 and 3 now the memory is full, so for inserting 4 we will look for the page which is not again referred in near future from 1, 2 and 3 so page 3 is not in near future so we replace that page with new page 4, and so on we will repeat the steps till we reach the end.
+
+Example
+Input: page[] = { 1, 7, 8, 3, 0, 2, 0, 3, 5, 4, 0, 6, 1 }
+   fn=3
+Output: Hits = 3
+   Misses = 10
+
+Input: page[] = { 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 }
+   fn = 4
+Output: Hits = 7
+   Misses= 6
+Approach we are using to solve the above problem −
+
+Take the input of pages as an array.
+Look for the page allocated is present in near future, if no then replace that page in the memory with new page,
+If page already present increment hit, else increment miss.
+Repeat till we reach the last element of the array.
+Print the number of hits and misses.
