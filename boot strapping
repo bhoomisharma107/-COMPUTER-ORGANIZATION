@@ -1,0 +1,26 @@
+A bootstrap is the program that initializes the operating system (OS) during startup. The term bootstrap or bootstrapping originated in the early 1950s. 
+It referred to a bootstrap load button that was used to initiate a hardwired bootstrap program, or smaller program that executed a larger program such as the OS. 
+The term was said to be derived from the expression “pulling yourself up by your own bootstraps,” starting small and loading programs one at a time while each program is “laced”
+or connected to the next program to be executed in sequence.
+
+Advertisement
+
+Techopedia Explains Bootstrap
+Bootstrapping is the process of loading a set of instructions when a computer is first turned on or booted. During the startup process,
+diagnostic tests are performed, such as the power-on self-test (POST), that set or check configurations for devices and implement routine testing for the connection of peripherals
+, hardware and external memory devices. The bootloader or bootstrap program is then loaded to initialize the OS.
+
+Typical programs that load the OS are:
+
+GNU Grand Unified Bootloader (GRUB): A multiboot specification that allows the user to choose one of several OSs
+NT Loader (NTLDR): A bootloader for Microsoft’s Windows NT OS that usually runs from the hard drive
+Linux Loader (LILO): A bootloader for Linux that generally runs from a hard drive or floppy disc
+Network Interface Controller (NIC): Uses a bootloader that supports booting from a network interface such as Etherboot or pre-boot execution environment (PXE)
+Prior to bootstrapping a computer is said to start with a blank main memory. The bootstrap allows the sequence of programs to load in order to initiate the OS. 
+The OS is the main program that manages all programs that run on a computer and performs tasks such as controlling peripheral devices like a disc drive, managing directories 
+and files, transmitting output signals to a monitor and identifying input signals from a keyboard.
+
+Bootstrap can also refer to preparing early programming environments incrementally to create more complex and user-friendly programming environments. For example, at one time 
+the programming environment might have consisted of an assembler program and a simple text editor. Over time, gradual improvements have led to today's sophisticated object
+-oriented programming languages and graphical integrated development environments (IDEs).
+
