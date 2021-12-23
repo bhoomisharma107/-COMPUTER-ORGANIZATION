@@ -1,0 +1,14 @@
+computer Architecture
+Computer Architecture is a blueprint for design and implementation of a computer system. It provides the functional details and behaviour of a computer system and comes before computer organization. Computer architecture deals with 'What to do?'
+
+Computer Organization
+Computer Organization is how operational parts of a computer system are linked together. It implements the provided computer architecture. Computer organization deals with 'How to do?'
+
+Following are some of the important differences between Computer Architecture and Computer Organization.
+
+Sr. No.	Key	Computer Architecture	Computer Organization
+1	Purpose	Computer architecture explains what a computer should do.	Computer organization explains how a computer works.
+2	Target	Computer architecture provides functional behavior of computer system.	Computer organization provides structural relationships between parts of computer system.
+3	Design	Computer architecture deals with high level design.	Computer organization deals with low level design.
+4	Actors	Actors in Computer architecture are hardware parts.	Actor in computer organizaton is performance.
+5	Order	Computer architecture is designed first.	Computer organization is started after finalizing computer architecture.
