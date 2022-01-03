@@ -1,0 +1,19 @@
+What are the types of Parallel Processor System in Computer Architecture?
+
+Parallel processing systems are created to speed up the implementation of programs by breaking the program into several fragments and processing these fragments together. Such systems are multiprocessor systems also referred to as tightly coupled systems. Parallel processors can be divided into the following four groups based on the number of instructions and data streams are as follows −
+
+SISD Computer Organization
+SISD represents a computer organization with a control unit, a processing unit, and a memory unit. SISD is like the serial computer in use. SISD executes instructions sequentially and they may or may not have parallel processing capabilities.
+
+Instructions executed sequentially may get overlapped in their execution stages. A SISD computer can have greater than one functional unit in it. But all the functional units are below the administration of one control unit. Parallel processing in such systems can be attained by pipeline processing or by using multiple functional units.
+
+SIMD Computer Organization
+SIMD organization includes multiple processing elements. All these elements are below the administration of a common control unit. All processors get identical instruction from the control unit but work on multiple data items.
+
+The shared subsystem contains multiple modules which help in communicating with all the processors simultaneously. This is further divided into word slice and bit-slice mode organizations.
+
+MISD Computer Organization
+MISD organization includes multiple processing units, each receiving separate instructions operating over a similar data flow. The result of one processor becomes the input of the next processor. The introduction of this organization received less attention and was not practically implemented in architecture. The structure was of only theoretical interest.
+
+MIMD Computer Organization
+A MIMD computer organization contains interactions among the multiprocessors since all memory flows are changed from the common data area transmitted by all processors. If the multi-data streams were derived from different shared memories then it is a multiple SISD operation that is equal to a set of ‘n’ independent SISD systems
