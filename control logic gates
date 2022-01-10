@@ -1,0 +1,16 @@
+control Logic Gates
+The Control Logic Gate for a basic computer is same as the one used in Hard wired Control organization.
+
+The block diagram is also similar to the Control Logic Gate used in the Hard wired Control organization.
+
+Control Logic Gates
+Inputs for the Control Logic Circuit:
+
+The input for the Control Logic circuit comes from the two decoders, I flip-flop and bits 0 through 11 of IR.
+The other inputs to the Control Logic are AC (bits 0 through 15), DR (bits 0 through 15), and the value of the seven flip-flops.
+Outputs of the Control Logic Circuit:
+The control of the inputs of the nine registers
+The control of the read and write inputs of memory
+To set, clear, or complement the flip-flops
+S2, S1, and SO to select a register for the bus
+The control of the AC adder and logic circuit.
